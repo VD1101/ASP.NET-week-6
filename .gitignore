@@ -1,0 +1,31 @@
+# ASP.NET Core specific ignores
+bin/
+obj/
+*.db
+*.db-journal
+*.pdb
+*.log
+*.cache
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build and Publish artifacts
+publish/
+*.publishsettings
+
+# Temporary files
+tmp/
+temp/
+
+# Environment variables
+.env
+secrets.json
+
+# Ignore node_modules (if added in the future)
+node_modules/
